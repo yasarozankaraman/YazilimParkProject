@@ -1,0 +1,28 @@
+﻿@model List<Yazilimpark.Models.ProjectModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="background-image">
+    <div class="container">
+
+        <div class="card-container">
+
+            @{
+                foreach (var proje in Model)
+                {
+                    <a asp-controller="Home" asp-action="@proje.Path">
+                        <div style="background-image:url(../assets/images/@proje.BackgroundImage)" class="card">
+                            <div class="card-name">@proje.Name</div>
+                        </div>
+                    </a>
+                }
+            }
+
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Index.css"/>
+}

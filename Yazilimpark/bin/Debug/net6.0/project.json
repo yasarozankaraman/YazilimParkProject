@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 0,
+    "Name": "Body Mass Index Calculator",
+    "Path": "Bmi",
+    "BackgroundImage": "4.jfif"
+  },
+  {
+    "Id": 1,
+    "Name": "Random Quote App",
+    "Path": "RandomQuote",
+    "BackgroundImage": "3.jfif"
+  },
+  {
+    "Id": 2,
+    "Name": "Todo List App",
+    "Path": "ToDoList",
+    "BackgroundImage": "2.jfif"
+  },
+  {
+    "Id": 3,
+    "Name": "Weather Info App",
+    "Path": "Weather",
+    "BackgroundImage": "1.jfif"
+  }
+]

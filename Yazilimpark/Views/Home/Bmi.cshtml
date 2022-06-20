@@ -1,0 +1,47 @@
+﻿
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vücut Kitle Hesaplama Uygulaması</title>
+</head>
+<body>
+    <div>
+        <h2>Vücut Kitle Endeksi Hesaplama</h2>
+        <p class="text">Boy</p>
+        <input type="text" id="h">
+        <p class="text">Kilo</p>
+        <input type="text" id="w">
+        <p id="result"></p>
+        <button id="btn" onclick="BMI()">Hesapla</button>
+        <p id="info">Lütfen kilo ve boy değerlerinizi giriniz</p>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+@section Styles{
+    <link rel="stylesheet" type="text/css" href="~/css/bmi.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    }
+    <script async="async">
+
+        function BMI() {
+            var h = document.getElementById('h').value;
+            var w = document.getElementById('w').value;
+            var bmi = w / (h / 100 * h / 100);
+            var bmio = (bmi.toFixed(2));
+            if (bmio < 18)
+                document.getElementById("result").innerHTML = "Zayıf" + "---" + "Vücut kitle endeksi:" + bmio;
+            else if (bmio >= 18 && bmio < 25)
+                document.getElementById("result").innerHTML = "Normal" + "---" + "Vücut kitle endeksi:" + bmio;
+            else if (bmio >= 25 && bmio < 30)
+                document.getElementById("result").innerHTML = "Kilolu" + "---" + "Vücut kitle endeksi:" + bmio;
+            else if (bmio >= 30 && bmio < 40)
+                document.getElementById("result").innerHTML = "Obez" + "---" + "Vücut kitle endeksi:" + bmio;
+            else
+                document.getElementById("İleri Derecede Obez" + "" + bmi.toFixed(2));
+        }
+        }
+    </script>
