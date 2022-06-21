@@ -38,6 +38,16 @@ namespace Yazilimpark.Controllers
         public IActionResult Weather()
         {
             return View();
+           /* var city = new City
+            {
+                Humidity = 0,
+                Name = "asd",
+                Temperature = 345,
+                Weather = "asdasd"
+            };
+            //var centerCities = new List<City>();
+
+            return View("~/Views/WeatherForecast/City.cshtml",city );*/
 
         }
     }

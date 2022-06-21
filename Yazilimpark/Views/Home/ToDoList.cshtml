@@ -1,0 +1,101 @@
+﻿
+
+<div class=container>
+    <div class="card">
+        <div class="card-header">
+            <h1 class="text-primary">Yapılacaklar Listesi</h1>
+            <i class="far fade square"></i>
+        </div>
+        <div class="card-body">
+            <ul id="todo-list" class="todo-list">
+
+                <div class="todo-item todo">
+                <li>Test</li>
+                <i class="fas fa-square"></i>
+                <i class="fas fa-trash-alt"></i>
+        </div>
+
+        <div class="todo-item todo">
+            <li>Test</li>
+            <i class="fas fa-check-square"></i>
+            <i class="fas fa-trash-alt"></i>
+        </div>
+        </ul>
+    </div>
+    <div class="card-footer">
+        <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+            <input type="text" id="todo-input" placeholder="Yeni Yapilacak..">
+            <button></button>
+            <input id="sendButton" type="submit" />
+        </form>
+    </div>
+</div>
+
+    @section Scripts{
+<link rel="stylesheet" href="~/css/todo.css" />
+<script src="js/site.js" asp-append-version="true"></script>
+<script type="text/javascript">
+
+    const initializeTodos = async () => {
+        const res = await fetch('https://localhost:6001/api/TodoItems');
+        const todos = await res.json();
+
+        for(let i = 0; i < todos.length; i++){
+            createTodoItem(todos[i].name)
+        }
+    }
+    initializeTodos();
+
+    const sendButton = document.getElementById('sendButton');
+    const todoInput = document.getElementById('todo-input');
+    const todoList = document.getElementById('todo-list');
+
+    const createTodoItem = (todoName) => {
+
+        // create todo item
+        const div = document.createElement('div');
+        div.classList.add('todo-item');
+        div.classList.add('todo');
+
+        // create li item
+        const li = document.createElement('li');
+        li.innerText = todoName;
+
+        // create icons
+        const box = document.createElement('i');
+        box.classList.add('fas');
+        box.classList.add('fa-square');
+
+        const trash = document.createElement('i');
+        trash.classList.add('fas');
+        trash.classList.add('fa-trash-alt');
+
+
+        div.appendChild(li);
+        div.appendChild(box);
+        div.appendChild(trash);
+
+        todoList.appendChild(div);
+    }
+
+    const addTodo = async (e) => {
+        const model = {
+            name: todoInput.value
+        };
+
+        const res = await fetch('https://localhost:6001/api/TodoItems', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(model)
+        });
+
+        createTodoItem(model.name);
+    }
+
+    sendButton.addEventListener('click', addTodo);
+
+</script>
+    }
+

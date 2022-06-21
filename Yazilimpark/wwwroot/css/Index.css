@@ -1,0 +1,87 @@
+﻿﻿.background-image {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    padding: 4rem;
+}
+
+.background-image::before {
+    content: "";
+    background: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.75;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -9999;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1.5rem;
+    justify-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: min-content;
+    padding: 1rem;
+    background: transparent;
+}
+
+.card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+    cursor: pointer;
+    opacity: initial;
+    position: relative;
+}
+
+@media screen and (max-width: 1250px) {
+    .card-container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .card-container {
+        grid-template-columns: auto;
+    }
+}
+
+.card-name {
+    color: white;
+    color: rgba(255, 255, 255, .90);
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 600;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}

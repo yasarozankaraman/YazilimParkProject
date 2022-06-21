@@ -1,26 +1,26 @@
 [
   {
     "Id": 0,
-    "Name": "Body Mass Index Calculator",
+    "Name": "BMI",
     "Path": "Bmi",
-    "BackgroundImage": "4.jfif"
+    "BackgroundImage": "post1.png"
   },
   {
     "Id": 1,
-    "Name": "Random Quote App",
+    "Name": "Rastgele Soz",
     "Path": "RandomQuote",
-    "BackgroundImage": "3.jfif"
+    "BackgroundImage": "post3.jpg"
   },
   {
     "Id": 2,
-    "Name": "Todo List App",
+    "Name": "Yapilacak Isler",
     "Path": "ToDoList",
-    "BackgroundImage": "2.jfif"
+    "BackgroundImage": "post3.png"
   },
   {
     "Id": 3,
-    "Name": "Weather Info App",
+    "Name": "Hava Durumu",
     "Path": "Weather",
-    "BackgroundImage": "1.jfif"
+    "BackgroundImage": "post2.jpg"
   }
 ]
