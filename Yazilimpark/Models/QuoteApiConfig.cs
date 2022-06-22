@@ -2,5 +2,6 @@
 {
     public class QuoteApiConfig
     {
+        public string Url { get; set; }
     }
 }
