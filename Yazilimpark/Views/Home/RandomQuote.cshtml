@@ -2,17 +2,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="~/css/random.css">
     <title>Rastgele Söz Uygulaması</title>
 </head>
 <body>
-    <div>
+    <div class="quote-container">
         <h2>Rastgele Söz Uygulaması</h2>
-        
-        <button id="btn" onclick="RastgeleSoz()">RastgeleSozGetir</button>
-        <button id="btn" onclick="TwitterPaylas()">Twitter'da Paylaş</button>
+        </hr>
+        <div class="quote-textarea-container">
+            <div class="quote-textarea">
+               <div id="quote-text"></div>
+                <div id="quote-header"></div>
+            </div>
+        </div>
+        <div class="quote-buttons">
+            <button id="btn" onclick="RastgeleSoz()">RastgeleSozGetir</button>
+            <button id="btn" onclick="TwitterPaylas()">Twitter'da Paylaş</button>
+
+        </div>
+
 
     </div>
     <script src="script.js"></script>
 
 </body>
+
+@section Styles{
+<link rel="stylesheet" href="~/css/random.css" />
+}
+<script>
+
+    const getRandomQuote = async () => {
+        const res = await fetch('/api/quote');
+        return await res.json();
+    }
+    const RastgeleSoz = async () => {
+        const textbox = document.getElementById('quote-text');
+        let quote = await getRandomQuote();
+
+        let text = quote.content + '\r\n \r\n' + '<h2>' + (quote.author ?? "Anon") + '</h2>';
+        textbox.innerHTML = text;
+    }
+
+    const onTweetClick = () => {
+
+
+    }
+</script>
