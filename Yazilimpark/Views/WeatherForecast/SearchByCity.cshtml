@@ -1,23 +1,20 @@
-﻿@model Yazilimpark.Models.City
+﻿@model Yazilimpark.Models.SearchByCity
+
 @{
-    ViewData["Title"] = "City";
+    ViewData["Title"] = "SearchByCity";
 }
-
 <div class="container">
-    <div class="container">
-        <div class="form-group col-md-offset-3 col-md-5">
-            <label asp-for="Name"></label>
-            <span class="badge alert-primary">@Model.Name</span><br />
-            <label asp-for="Temperature"></label>
-            <span class="badge alert-primary">@Model.Temperature°</span><br />
-            <label asp-for="Humidity"></label>
-            <span class="badge alert-primary">@Model.Humidity</span><br />
-            <label asp-for="Weather"></label>
-            <span class="badge alert-primary">@Model.Weather</span><br />
-            <form method="get">
-                <button asp-controller="WeatherForecast" asp-action="SearchByCity" class="btn btn-primary">"Go Back"</button>
-            </form>
+    <form method="post">
+        <div class="container">
+            <h2> Search By City Name</h2>
+            <div>
+                <input asp-for="CityName" class="form-control" placeholder="Enter cityname" />
+                <button asp-controller="Home" asp-action="SearchByCity" class="btn btn-outline-primary"></button>
+                <span asp-validation-for="CityName" class="text-danger"></span>
+            </div>
         </div>
-
-    </div>
+    </form>
 </div>
+
+
+  

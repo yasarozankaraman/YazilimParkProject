@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yazilim.park9\\source\\repos\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj": {}
+    "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yazilim.park9\\source\\repos\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj": {
+    "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yazilim.park9\\source\\repos\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj",
+        "projectUniqueName": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj",
         "projectName": "Yazilimpark",
-        "projectPath": "C:\\Users\\yazilim.park9\\source\\repos\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj",
+        "projectPath": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj",
         "packagesPath": "C:\\Users\\yazilim.park9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yazilim.park9\\source\\repos\\YazilimParkProject\\Yazilimpark\\obj\\",
+        "outputPath": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,6 +55,14 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
             }
           },
           "imports": [

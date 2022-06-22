@@ -34,9 +34,10 @@ namespace Yazilimpark.Controllers
             return View();
 
         }
-
+        [HttpGet]
         public IActionResult Weather()
         {
+            var viewModel = new SearchByCity();
             return View();
            /* var city = new City
             {
@@ -49,6 +50,19 @@ namespace Yazilimpark.Controllers
 
             return View("~/Views/WeatherForecast/City.cshtml",city );*/
 
+        }
+        public IActionResult Weather(SearchByCity model)
+        {
+            if(ModelState.IsValid)
+            {
+                return RedirectToAction("City", "WeatherForecast", new {city=model.CityName});
+            }
+            return View(model);
+        }
+        public IActionResult City(string city)
+        {
+            City viewModel=new City();
+            return View(viewModel); 
         }
     }
 }
