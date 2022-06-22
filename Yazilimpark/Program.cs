@@ -8,7 +8,7 @@ using Yazilimpark;
 using Yazilimpark.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddScoped<IWForecastRepository, WForecastRepository>();
+//builder.Services.AddScoped<IWForecastRepository, WForecastRepository>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddBusinessServices();

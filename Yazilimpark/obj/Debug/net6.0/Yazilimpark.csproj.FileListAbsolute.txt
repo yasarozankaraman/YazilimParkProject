@@ -105,3 +105,5 @@ C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.pdb
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.genruntimeconfig.cache
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\ref\Yazilimpark.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\RestSharp.dll
