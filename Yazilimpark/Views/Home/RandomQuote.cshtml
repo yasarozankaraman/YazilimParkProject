@@ -2,34 +2,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css"" href="~/css/random.css" />
     <title>Rastgele Söz Uygulaması</title>
 </head>
 <body>
-    <div class="quote-container">
-        <h2>Rastgele Söz Uygulaması</h2>
         </hr>
         <div class="quote-textarea-container">
+
             <div class="quote-textarea">
+                <h2>Rastgele Söz </h2>
                <div id="quote-text"></div>
                 <div id="quote-header"></div>
             </div>
         </div>
         <div class="quote-buttons">
             <button onclick="RastgeleSoz()" class="quotes-button"><i class="fa fa-retweet"></i></button>
-            <button onclick="TwitterPaylas()" class="quotes-button"><i class="fa fa-twitter"></i></button>
-
+            <button class="quotes-button"><i class="fa fa-twitter"></i></button>
         </div>
-
-
-    </div>    
 </body>
-
 @section Styles{
 <link rel="stylesheet" href="~/css/random.css" />
 }
 <script>
 
-    const TwitterPaylas = async () => {
+    const getRandomQuote = async () => {
         const res = await fetch('/api/quote');
         return await res.json();
     }

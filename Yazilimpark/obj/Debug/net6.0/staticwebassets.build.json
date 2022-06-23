@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ViPQODv+U0D5O/Aq9idvpQWGf/CusvEy5u5BbQgeI3w=",
+  "Hash": "P4gcqMPmt1R5SqMXOZ8AMpiiXIo0JHk56+xpF3+Flvk=",
   "Source": "Yazilimpark",
   "BasePath": "_content/Yazilimpark",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\todo.css"
+    },
+    {
+      "Identity": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\wwwroot\\css\\weather.css",
+      "SourceId": "Yazilimpark",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\wwwroot\\",
+      "BasePath": "_content/Yazilimpark",
+      "RelativePath": "css/weather.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\weather.css"
     },
     {
       "Identity": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\wwwroot\\favicon.ico",

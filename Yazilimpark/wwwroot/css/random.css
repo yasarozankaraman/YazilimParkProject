@@ -3,7 +3,7 @@
     padding: 0;
     text-align: center;
     font-family: sans-serif;
-    background-image: linear-gradient(120deg,#ff6b6b,#5f27cd);
+    background-image: linear-gradient(120deg,#fff,#5f27cd);
     min-height: 100vh;
 }
 
@@ -42,16 +42,29 @@ h2 {
     cursor: pointer;
 }
 
-    #btn:hover {
-        box-shadow: 1px 1px 10px #341f97;
+#container {
+    display: grid;
+    grid: repeat(2, 60px) / auto-flow 80px;
+}
+
+    #container > div {
+        background-color: #8ca0ff;
+        width: 50px;
+        height: 50px;
     }
+
+#btn:hover {
+    box-shadow: 1px 1px 10px #341f97;
+}
+
 .quote-container {
     display: block;
     border-radius: 5px;
-    background-image: linear-gradient(120deg,#ff6b6b,#5f27cd);
+    background-image: linear-gradient(red,#5f27cd);
     width: 50%;
     height: 360px;
 }
+
 .quote-header {
     text-align: center;
     font-size: 1.75rem;
@@ -61,15 +74,24 @@ h2 {
 }
 
 .quote-textarea-container {
-    padding: 1rem;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.quote-text {
+    left: 50%;
+    top: 60%;
+}
+
 .quote-textarea {
-    width: 100%;
-    height: 210px;
+    width: 700px;
+    height: 500px;
     background-color: white;
     border: 1px solid black;
     border-top-left-radius: 0.8rem;
@@ -80,9 +102,8 @@ h2 {
 }
 
 .quote-buttons {
-    padding: 0 1rem;
-    display: flex;
-    justify-content: flex-end;
+    top: 70%;
+    left: 50%;
 }
 
 .quotes-button {

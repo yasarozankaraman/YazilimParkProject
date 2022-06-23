@@ -12,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddBusinessServices();
+builder.Services.Configure<QuoteApiConfig>(builder.Configuration.GetSection("QuoteApiConfig"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

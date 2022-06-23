@@ -1,19 +1,36 @@
-﻿@model Yazilimpark.Models.SearchByCity
-@{
-    ViewData["Title"] = "SearchByCity";
-}
-<div class="container">
-    <form method="post">
-        <div class="container">
-            <h2> Search By City Name</h2>
-            <div>
-                <input asp-for="CityName" class="form-control" placeholder="Enter cityname" />
-                <button asp-controller="Home" asp-action="SearchByCity" class="btn btn-outline-primary"></button>
-                <span asp-validation-for="CityName" class="text-danger"></span>
-            </div>
-        </div>
-    </form>
-</div>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="~/css/weather.css">
+    <title>Document</title>
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="container-main">
+        <h2>Weather Card</h2>
+        <form class="form">
+            <input type="text" class="input-city">
+            <button class="btn"><span class="fa fa-search"></span></button>
+        </form>
+        <div class="place info"></div>
+        <small class="date info"></small>
+        <div class="temp info"></div>
+        <div class="condition info"></div>
+    </div>
+    <div class="container">
 
+    </div>
+    <div class="container">
 
-  
+    </div>
+    <div class="container">
+
+    </div>
+    <div class="container">
+
+    </div>
+    </body>
+</html>
