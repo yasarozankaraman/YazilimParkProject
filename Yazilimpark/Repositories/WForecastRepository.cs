@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using RestSharp;
 namespace Yazilimpark.Repositories
-{/*
+{
     public class WForecastRepository : IWForecastRepository
     {
       public WeatherResponse GetForecast(string city)
@@ -27,5 +27,5 @@ namespace Yazilimpark.Repositories
             }
             
         }
-    }*/
+    }
 }
