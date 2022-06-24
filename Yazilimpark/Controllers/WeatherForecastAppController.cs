@@ -40,8 +40,8 @@ namespace Yazilimpark.Controllers
                 viewModel.Temperature = weatherReponse.Main.Temp;
                 viewModel.Humidity = weatherReponse.Main.Humidity;
                 viewModel.Pressure = weatherReponse.Main.Pressure;
-                viewModel.Weather = weatherReponse.Weather[0].Main;
-                viewModel.Wind = weatherReponse.Wind.Speed;
+             //   viewModel.Weather = weatherReponse.Weather[0].Main;
+              //  viewModel.Wind = weatherReponse.Wind.Speed;
 
             }
             return View(viewModel);

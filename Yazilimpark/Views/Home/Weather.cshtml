@@ -1,54 +1,50 @@
-﻿@model Yazilimpark.Models.City
-@{
-    ViewData["Title"] = "City";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
 
-<div class="container">
-    <div class="container">
-        <div class="form-group col-md-offset-3 col-md-5">
-            <label asp-for="Name"></label>
-            <span class="badge alert-primary">@Model.Name</span><br />
-            <label asp-for="Temperature"></label>
-            <span class="badge alert-primary">@Model.Temperature°</span><br />
-            <label asp-for="Humidity"></label>
-            <span class="badge alert-primary">@Model.Humidity</span><br />
-            <label asp-for="Weather"></label>
-            <span class="badge alert-primary">@Model.Weather</span><br />
-            
-        </div>
-
-    </div>
-</div>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="~/css/weather.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
-    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <div class="container-main">
-        <h2>Weather Card</h2>
-        <form class="form">
-            <input type="text" class="input-city">
-            <button class="btn"><span class="fa fa-search"></span></button>
-        </form>
-        <div class="place info"></div>
-        <small class="date info"></small>
-        <div class="temp info"></div>
-        <div class="condition info"></div>
-    </div>
     <div class="container">
-
+        <div id="city">
+            <h2>Weather Card</h2>
+            <form class="form">
+                <input type="text" class="input-city">
+                <button class="btn"><span class="fa fa-search"></span></button>
+            </form>
+            <div class="place info">Ankara</div>
+            <small class="date info">Tuesday,July 20,2021</small>
+            <div class="temp info">35°</div>
+            <div class="condition info">Weather</div>
     </div>
-    <div class="container">
-
-    </div>
-    <div class="container">
-
-    </div>
-    <div class="container">
-
-    </div>
-    </body>
+        <div id="london">
+            <div class="place info">Ankara</div>
+            <small class="date info">Tuesday,July 20,2021</small>
+            <div class="temp info">35°</div>
+            <div class="condition info">Weather</div>
+        </div>
+        <div id="berlin">
+            <div class="place info">Ankara</div>
+            <small class="date info">Tuesday,July 20,2021</small>
+            <div class="temp info">35°</div>
+            <div class="condition info">Weather</div>
+        </div>
+        <div id="istanbul">
+            <div class="place info">Ankara</div>
+            <small class="date info">Tuesday,July 20,2021</small>
+            <div class="temp info">35°</div>
+            <div class="condition info">Weather</div>
+        </div>
+        <div id="paris">
+            <div class="place info">Ankara</div>
+            <small class="date info">Tuesday,July 20,2021</small>
+            <div class="temp info">35°</div>
+            <div class="condition info">Weather</div>
+        </div>
+            </div>
+</body>

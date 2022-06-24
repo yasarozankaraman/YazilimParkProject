@@ -1,267 +1,284 @@
-﻿
+﻿<head>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="~/css/todo.css" />
+    <script src="https://kit.fontawesome.com/d764eb5db4.js" crossorigin="anonymous"></script>
 
-<div class=container>
+</head>
+
+<div class="container">
     <div class="card">
         <div class="card-header">
-            <h1 class="text-primary">Yapılacaklar Listesi</h1>
-            <i class="far fade square"></i>
+            <h2>Yapılacaklar Listesi</h2>
+            <i class="far fa-square"></i>
         </div>
         <div class="card-body">
-            <ul id="todo-list" class="todo-list">
-
+            <ul class="todo-list" id="todo-list">
                 <div class="todo-item todo">
-                <li>Test</li>
+                <li>Evi Topla</li>
                 <i class="fas fa-square"></i>
-                <i class="fas fa-trash-alt"></i>
-        </div>
-
-        <div class="todo-item todo">
-            <li>Test</li>
-            <i class="fas fa-check-square"></i>
-            <i class="fas fa-trash-alt"></i>
+                <i class="fas-fa-trash-alt"></i>
         </div>
         </ul>
     </div>
-    <div class="card-footer">
-        <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-            <input type="text" id="todo-input" placeholder="Yeni Yapilacak..">
-            <button></button>
-            <input id="sendButton" type="submit" />
-        </form>
-    </div>
+    <div class="card-footer"></div>
+    <form action="javascript:void(0);">
+        <input type="text" id="todo-input" placeholder="Yeni Yapilacak..">
+        <button></button>
+        <input id="sendButton" type="submit" />
+    </form>
+</div>
 </div>
 
-    @section Scripts{
-<link rel="stylesheet" href="~/css/todo.css" />
+@section Scripts{
 <script src="js/site.js" asp-append-version="true"></script>
 <script type="text/javascript">
 
+                const initializeTodos = async () => {
+                    const res = await fetch('https://localhost:6001/api/TodoItems');
+                    const todos = await res.json();
 
-const uri = 'https://localhost:6001/api/TodoItems';
-let todos = [];
+                    for(let i = 0; i < todos.length; i++){
+                        createTodoItem(todos[i])
+                    }
+                }
+                initializeTodos();
 
-function getItems() {
-  fetch(uri)
-    .then(response => response.json())
-    .then(data => _displayItems(data))
-    .catch(error => console.error('Unable to get items.', error));
-}
+                const sendButton = document.getElementById('sendButton');
+                const todoInput = document.getElementById('todo-input');
+                const todoList = document.getElementById('todo-list');
 
-function addItem() {
-  const addNameTextbox = document.getElementById('todo-input');
+                const createTodoItem = (todo) => {
 
-  const item = {
-    isComplete: false,
-    name: addNameTextbox.value.trim()
-  };
+                    // create todo item
+                    const div = document.createElement('div');
+                    div.classList.add('todo-item');
+                    div.classList.add('todo');
+                    div.setAttribute('key', todo.id);
 
-  fetch(uri, {
-    method: 'POST',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(item)
-  })
-    .then(response => response.json())
-    .then(() => {
-      getItems();
-      addNameTextbox.value = '';
-    })
-    .catch(error => console.error('Unable to add item.', error));
-}
+                    // create li item
+                    const li = document.createElement('li');
+                    li.innerText = todo.name;
 
-function deleteItem(id) {
-  fetch(`${uri}/${id}`, {
-    method: 'DELETE'
-  })
-  .then(() => getItems())
-  .catch(error => console.error('Unable to delete item.', error));
-}
+                    // create icons
+                    const box = document.createElement('i');
+                    box.classList.add('fas');
+                    box.classList.add('fas fa-square');
+                    box.addEventListener('click',handleCheckboxChange);
 
-function displayEditForm(id) {
-  const item = todos.find(item => item.id === id);
-  
-  document.getElementById('edit-name').value = item.name;
-  document.getElementById('edit-id').value = item.id;
-  document.getElementById('edit-isComplete').checked = item.isComplete;
-  document.getElementById('editForm').style.display = 'block';
-}
+                    const trash = document.createElement('i');
+                    trash.classList.add('fas');
+                    trash.classList.add('fa-trash-alt');
+                    trash.addEventListener('click', handleDeleteButton);
 
-function updateItem() {
-  const itemId = document.getElementById('edit-id').value;
-  const item = {
-    id: parseInt(itemId, 10),
-    isComplete: document.getElementById('edit-isComplete').checked,
-    name: document.getElementById('edit-name').value.trim()
-  };
+                    div.appendChild(li);
+                    div.appendChild(box);
+                    div.appendChild(trash);
 
-  fetch(`${uri}/${itemId}`, {
-    method: 'PUT',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(item)
-  })
-  .then(() => getItems())
-  .catch(error => console.error('Unable to update item.', error));
+                    todoList.appendChild(div);
+                }
 
-  closeInput();
+                const addTodo = async (e) => {
+                    const model = {
+                        name: todoInput.value
+                    };
 
-  return false;
-}
+                    const res = await fetch('https://localhost:6001/api/TodoItems', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(model)
+                    });
+                    const responseModel = await res.json();
+                    createTodoItem(responseModel);
+                }
 
-function closeInput() {
-  document.getElementById('editForm').style.display = 'none';
-}
+                sendButton.addEventListener('click', addTodo);
 
-function _displayCount(itemCount) {
-  const name = (itemCount === 1) ? 'to-do' : 'to-dos';
+                //Delete
+                const deleteElementOnList = (todoId) => {
+                    const list = document.getElementById('todo-list');
 
-  document.getElementById('counter').innerText = `${itemCount} ${name}`;
-}
+                    let deletedElem;
+                    for (let i = 0; i < list.childElementCount; i++)
+                    {
+                        let currentKey = list.children[i].getAttribute('key');
+                        if (currentKey == todoId)
+                        {
+                             deletedElem = list.children[i];
+                             break;
+                        }
+                    }
+                    list.removeChild(deletedElem);
+                }
 
-function _displayItems(data) {
-  const tBody = document.getElementById('todos');
-  tBody.innerHTML = '';
+                const deleteApi = async (todoId) => {
+                    const res = await fetch('https://localhost:6001/api/TodoItems/' + todoId,
+                    {
+                        method: 'DELETE'
+                    });
+                    return res.status == 204;
+                }
 
-  _displayCount(data.length);
+                const handleDeleteButton = async (e) => {
 
-  const button = document.createElement('button');
+                    const todoId = e.target.parentElement.getAttribute('key');
+                    console.log(todoId);
 
-  data.forEach(item => {
-    let isCompleteCheckbox = document.createElement('input');
-    isCompleteCheckbox.type = 'fas fa-square';
-    isCompleteCheckbox.disabled = true;
-    isCompleteCheckbox.checked = item.isComplete;
+                    const success = deleteApi(todoId);
+                    if (success){
+                        deleteElementOnList(todoId);
+                    }
+                }
+                const handleCheckboxChange = (e) => {
+                e.preventDefault();
+                //e.stopPropagation();
+                // get todo id for update
+                const todoId = e.target.parentElement.parentElement.getAttribute('key');
 
-    let editButton = button.cloneNode(false);
-    editButton.innerText = 'Edit';
-    editButton.setAttribute('onclick', `displayEditForm(${item.id})`);
+                setTimeout(() => {
+                    // body for request
+                    let isDone = !e.target.checked;
+                    // request for update todo status
+                    const success = updateTodoApi(todoId, isDone);
 
-    let deleteButton = button.cloneNode(false);
-    deleteButton.innerText = 'Delete';
-    deleteButton.setAttribute('onclick', `deleteItem(${item.id})`);
-
-    let tr = tBody.insertRow();
-    
-    let td1 = tr.insertCell(0);
-    td1.appendChild(isCompleteCheckbox);
-
-    let td2 = tr.insertCell(1);
-    let textNode = document.createTextNode(item.name);
-    td2.appendChild(textNode);
-
-    let td3 = tr.insertCell(2);
-    td3.appendChild(editButton);
-
-    let td4 = tr.insertCell(3);
-    td4.appendChild(deleteButton);
-  });
-
-  todos = data;
-}
-    
-    
-    
-    /*
-        const initializeTodos = async () => {
-            const res = await fetch('https://localhost:6001/api/TodoItems');
-            const todos = await res.json();
-
-            for(let i = 0; i < todos.length; i++){
-                createTodoItem(todos[i].name)
+                    if (success){
+                        // update checkbox in dom
+                        e.target.checked = isDone;
             }
-        }
-        initializeTodos();
-
-        const sendButton = document.getElementById('sendButton');
-        const todoInput = document.getElementById('todo-input');
-        const todoList = document.getElementById('todo-list');
-
-        const createTodoItem = (todoName) => {
-
-            // create todo item
-            const div = document.createElement('div');
-            div.classList.add('todo-item');
-            div.classList.add('todo');
-
-            // create li item
-            const li = document.createElement('li');
-            li.innerText = todoName;
-
-            // create icons
-            const box = document.createElement('i');
-            box.classList.add('fas');
-            box.classList.add('fa-square');
-
-            const trash = document.createElement('i');
-            trash.classList.add('fas');
-            trash.classList.add('fa-trash-alt');
-
-
-            div.appendChild(li);
-            div.appendChild(box);
-            div.appendChild(trash);
-
-            todoList.appendChild(div);
-        }
-
-        const addTodo = async (e) => {
-            const model = {
-                name: todoInput.value
-            };
-
-            const res = await fetch('https://localhost:6001/api/TodoItems', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(model)
-            });
-
-            createTodoItem(model.name);
-        }
-
-        sendButton.addEventListener('click', addTodo);
-       
-        //Delete
-        const deleteElementOnList = (todoId) => {
-        const list = document.getElementById('todo-ul');
-
-        let deletedElem;
-        for (let i = 0; i < list.childElementCount; i++)
-        {
-            let currentKey = list.children[i].getAttribute('key');
-            if (currentKey == todoId)
-            {
-                 deletedElem = list.children[i];
-                 break;
-            }
-        }
-        list.removeChild(deletedElem);
+        }, 0);
     }
 
-        const deleteApi = async (todoId) => {
-        const res = await fetch('https://localhost:6001/api/TodoItems',
-        {
+        /*
+
+        const uri = 'https://localhost:6001/api/TodoItems';
+        let todos = [];
+
+        function getItems() {
+          fetch(uri)
+            .then(response => response.json())
+            .then(data => _displayItems(data))
+            .catch(error => console.error('Unable to get items.', error));
+        }
+
+        function addItem() {
+          const addNameTextbox = document.getElementById('todo-input');
+
+          const item = {
+            isComplete: false,
+            name: addNameTextbox.value.trim()
+          };
+
+          fetch(uri, {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(item)
+          })
+            .then(response => response.json())
+            .then(() => {
+              getItems();
+              addNameTextbox.value = '';
+            })
+            .catch(error => console.error('Unable to add item.', error));
+        }
+
+        function deleteItem(id) {
+          fetch(`${uri}/${id}`, {
             method: 'DELETE'
-        });
-        return res.status == 200;
-    }
-
-        const handleDeleteButton = async (e) => {
-
-        const todoId = e.target.parentElement.parentElement.getAttribute('key');
-
-        const success = deleteApi(todoId);
-        if (success){
-            deleteElementOnList(todoId);
+          })
+          .then(() => getItems())
+          .catch(error => console.error('Unable to delete item.', error));
         }
-    }
 
-*/
+        function displayEditForm(id) {
+          const item = todos.find(item => item.id === id);
+
+          document.getElementById('edit-name').value = item.name;
+          document.getElementById('edit-id').value = item.id;
+          document.getElementById('edit-isComplete').checked = item.isComplete;
+          document.getElementById('editForm').style.display = 'block';
+        }
+
+        function updateItem() {
+          const itemId = document.getElementById('edit-id').value;
+          const item = {
+            id: parseInt(itemId, 10),
+            isComplete: document.getElementById('edit-isComplete').checked,
+            name: document.getElementById('edit-name').value.trim()
+          };
+
+          fetch(`${uri}/${itemId}`, {
+            method: 'PUT',
+            headers: {
+              'Accept': 'application/json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(item)
+          })
+          .then(() => getItems())
+          .catch(error => console.error('Unable to update item.', error));
+
+          closeInput();
+
+          return false;
+        }
+
+        function closeInput() {
+          document.getElementById('editForm').style.display = 'none';
+        }
+
+        function _displayCount(itemCount) {
+          const name = (itemCount === 1) ? 'to-do' : 'to-dos';
+
+          document.getElementById('counter').innerText = `${itemCount} ${name}`;
+        }
+
+        function _displayItems(data) {
+          const tBody = document.getElementById('todos');
+          tBody.innerHTML = '';
+
+          _displayCount(data.length);
+
+          const button = document.createElement('button');
+
+          data.forEach(item => {
+            let isCompleteCheckbox = document.createElement('input');
+            isCompleteCheckbox.type = 'fas fa-square';
+            isCompleteCheckbox.disabled = true;
+            isCompleteCheckbox.checked = item.isComplete;
+
+            let editButton = button.cloneNode(false);
+            editButton.innerText = 'Edit';
+            editButton.setAttribute('onclick', `displayEditForm(${item.id})`);
+
+            let deleteButton = button.cloneNode(false);
+            deleteButton.innerText = 'Delete';
+            deleteButton.setAttribute('onclick', `deleteItem(${item.id})`);
+
+            let tr = tBody.insertRow();
+
+            let td1 = tr.insertCell(0);
+            td1.appendChild(isCompleteCheckbox);
+
+            let td2 = tr.insertCell(1);
+            let textNode = document.createTextNode(item.name);
+            td2.appendChild(textNode);
+
+            let td3 = tr.insertCell(2);
+            td3.appendChild(editButton);
+
+            let td4 = tr.insertCell(3);
+            td4.appendChild(deleteButton);
+          });
+
+          todos = data;
+        }
+            */
+
 
 
 </script>
