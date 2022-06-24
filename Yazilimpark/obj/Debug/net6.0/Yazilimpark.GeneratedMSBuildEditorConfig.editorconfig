@@ -8,69 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Yazilimpark
 build_property.RootNamespace = Yazilimpark
-build_property.ProjectDir = C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\
+build_property.ProjectDir = C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject\Yazilimpark\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark
+build_property.MSBuildProjectDirectory = C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject\Yazilimpark
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/Bmi.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Home/Bmi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/City.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Home/City.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaXR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/Index.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/Privacy.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/RandomQuote.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Home/RandomQuote.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYW5kb21RdW90ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/ToDoList.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Home/ToDoList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUb0RvTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/Weather.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Home/Weather.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWF0aGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Shared/Error.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/WeatherForecastApp/City.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/WeatherForecastApp/City.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckZvcmVjYXN0QXBwXENpdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/WeatherForecast/City.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/WeatherForecast/City.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckZvcmVjYXN0XENpdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/WeatherForecast/SearchByCity.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/WeatherForecast/SearchByCity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlckZvcmVjYXN0XFNlYXJjaEJ5Q2l0eS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/_ViewImports.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/_ViewStart.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Shared/_Layout.cshtml]
+[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject/Yazilimpark/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hbo06hti34

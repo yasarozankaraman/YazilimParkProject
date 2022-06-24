@@ -782,23 +782,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yazilim.park9\\.nuget\\packages\\": {},
+    "C:\\Users\\Yasar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj",
+      "projectUniqueName": "C:\\Users\\Yasar\\OneDrive\\Masaüstü\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj",
       "projectName": "Yazilimpark",
-      "projectPath": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj",
-      "packagesPath": "C:\\Users\\yazilim.park9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\obj\\",
+      "projectPath": "C:\\Users\\Yasar\\OneDrive\\Masaüstü\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj",
+      "packagesPath": "C:\\Users\\Yasar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yasar\\OneDrive\\Masaüstü\\YazilimParkProject\\Yazilimpark\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\yazilim.park9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yasar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

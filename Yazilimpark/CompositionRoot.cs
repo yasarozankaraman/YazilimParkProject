@@ -9,7 +9,7 @@ namespace Yazilimpark
         public static void AddBusinessServices(this IServiceCollection services)
         {
             services.AddSingleton<IProjectService, ProjectService>();
-            services.AddSingleton<IQuoteService, QuoteService>();
+         //   services.AddSingleton<IQuoteService, QuoteService>();
 
         }
     }
