@@ -1,7 +1,11 @@
 {
   "Version": 1,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "Hash": "P4gcqMPmt1R5SqMXOZ8AMpiiXIo0JHk56+xpF3+Flvk=",
+=======
+  "Hash": "dp/hqdJ3brtn7ZtQHOCmTAB20kUNGNLQUZxLl15RMf8=",
+>>>>>>> Stashed changes
 =======
   "Hash": "dp/hqdJ3brtn7ZtQHOCmTAB20kUNGNLQUZxLl15RMf8=",
 >>>>>>> Stashed changes
@@ -141,10 +145,14 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\wwwroot\\css\\weather.css",
+=======
+      "Identity": "C:\\Users\\Yasar\\OneDrive\\Masaüstü\\YazilimParkProject\\Yazilimpark\\wwwroot\\favicon.ico",
+>>>>>>> Stashed changes
       "SourceId": "Yazilimpark",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Yasar\\OneDrive\\Masaüstü\\YazilimParkProject\\Yazilimpark\\wwwroot\\",
       "BasePath": "_content/Yazilimpark",
       "RelativePath": "css/weather.css",
       "AssetKind": "All",
