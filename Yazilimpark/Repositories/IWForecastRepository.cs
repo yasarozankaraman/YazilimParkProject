@@ -1,10 +1,11 @@
-﻿using Yazilimpark.OpenWeatherMap_Model;
+﻿using Yazilimpark.Models;
+using Yazilimpark.OpenWeatherMap_Model;
 
 namespace Yazilimpark.Repositories
 {
     public interface IWForecastRepository
     {
-        WeatherResponse GetForecast(string city);
+        Task<OpenMapWeatherResponseModel> GetForecast(string city);
 
     }
 }

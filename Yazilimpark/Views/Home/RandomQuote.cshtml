@@ -2,43 +2,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css"" href="~/css/random.css" />
+    <link rel="stylesheet" type="text/css" " href="~/css/random.css" />
     <title>Rastgele Söz Uygulaması</title>
 </head>
 <body>
-        </hr>
-        <div class="quote-textarea-container">
+    </hr>
+    <div class="quote-textarea-container">
 
-            <div class="quote-textarea">
-                <h2>Rastgele Söz </h2>
-               <div id="quote-text"></div>
-                <div id="quote-header"></div>
+        <div class="quote-textarea">
+            <h2>Rastgele Söz </h2>
+            <div id="quote-text">
+                "Creativity comes from trust. Trust your instincts. And never hope more than you work."
+                <h1></h1>
+
+                <h2>Rita Mae Brown</h2>
+
             </div>
+            <div id="quote-header"></div>
         </div>
-        <div class="quote-buttons">
-            <button onclick="RastgeleSoz()" class="quotes-button"><i class="fa fa-retweet"></i></button>
-            <button class="quotes-button"><i class="fa fa-twitter"></i></button>
-        </div>
+    </div>
+    <div class="quote-buttons">
+        <button onclick="RastgeleSoz()" class="quotes-button"><i class="fa fa-retweet"></i></button>
+        <button class="quotes-button"><i class="fa fa-twitter"></i></button>
+    </div>
 </body>
 @section Styles{
-<link rel="stylesheet" href="~/css/random.css" />
+    <link rel="stylesheet" href="~/css/random.css" />
 }
-<script>
+    <script>
 
-    const getRandomQuote = async () => {
-        const res = await fetch('/api/quote');
-        return await res.json();
-    }
-    const RastgeleSoz = async () => {
-        const textbox = document.getElementById('quote-text');
-        let quote = await getRandomQuote();
+        const getRandomQuote = async () => {
+            const res = await fetch('/api/quote');
+            return await res.json();
+        }
+        const RastgeleSoz = async () => {
+            const textbox = document.getElementById('quote-text');
+            let quote = await getRandomQuote();
 
-        let text = quote.content + '\r\n \r\n' + '<h2>' + (quote.author ?? "Anon") + '</h2>';
-        textbox.innerHTML = text;
-    }
+            let text = quote.content + '\r\n \r\n' + '<h2>' + (quote.author ?? "Anon") + '</h2>';
+            textbox.innerHTML = text;
+        }
 
-    const onTweetClick = () => {
+        const onTweetClick = () => {
 
 
-    }
-</script>
+        }
+    </script>

@@ -7,7 +7,7 @@ using Yazilimpark.Models;
 
 
 namespace Yazilimpark.Services
-{/*
+{
     public class QuoteService: IQuoteService
     {
         private readonly QuoteApiConfig _config;
@@ -16,7 +16,7 @@ namespace Yazilimpark.Services
         {
             _config = config.Value;
         }
-        public async Task<Quote> GetRandomQuote(string res)
+        public async Task<Quote> GetRandomQuote()
         {
             using var client = new HttpClient();
             var res = await client.GetStringAsync(_config.Url);
@@ -30,6 +30,6 @@ namespace Yazilimpark.Services
     public interface IQuoteService
     {
         Task<Quote> GetRandomQuote();
-    }*/
+    }
 }
 

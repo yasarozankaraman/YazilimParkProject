@@ -1,8 +1,13 @@
-﻿namespace Yazilimpark.OpenWeatherMap_Model
+﻿using System.Text.Json.Serialization;
+
+namespace Yazilimpark.OpenWeatherMap_Model
 {
     public class Coord
     {
-        public float Lon { get; set; }  
+        [JsonPropertyName("lat")]
         public float Lat { get; set; }
+
+        [JsonPropertyName("lon")]
+        public float Lon { get; set; }
     }
 }

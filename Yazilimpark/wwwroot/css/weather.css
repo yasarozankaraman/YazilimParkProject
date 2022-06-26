@@ -19,7 +19,6 @@ body {
 }
 
 .container {
-    background-color: #efefef;
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -30,17 +29,18 @@ body {
     grid-gap: 0.2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: #2e312f;
-    display: flex;
     align-items: center;
     flex-direction: column;
     margin: auto;
 }
 
 .container-main {
+    height: 100px;
+    width: 300px;
     background-color: #efefef;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: #2e312f;
-    display: flex;
     align-items: center;
     flex-direction: column;
     margin: auto;
@@ -49,26 +49,31 @@ body {
 #city {
     background-color: #efefef;
     grid-area: city;
+    border-radius: 30px;
 }
 
 #london {
     background-color: #efefef;
     grid-area: london;
+    border-radius: 30px;
 }
 
 #berlin {
     background-color: #efefef;
     grid-area: berlin;
+    border-radius: 30px;
 }
 
 #istanbul {
     background-color: #efefef;
     grid-area: istanbul;
+    border-radius: 30px;
 }
 
 #paris {
     background-color: #efefef;
     grid-area: paris;
+    border-radius: 30px;
 }
 
 .form {

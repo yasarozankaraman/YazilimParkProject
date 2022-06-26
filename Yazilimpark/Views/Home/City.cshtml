@@ -1,23 +1,34 @@
-﻿@model Yazilimpark.Models.City
+﻿@model Yazilimpark.Models.WeatherViewModel
 @{
     ViewData["Title"] = "City";
 }
+<head>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="~/css/weather.css" />
+    <script src="https://kit.fontawesome.com/d764eb5db4.js" crossorigin="anonymous"></script>
 
+</head>
+<form method="get">
+    <button asp-controller="Home" asp-action="SearchByCity" class="btn btn-primary">Back</button>
+</form>
 <div class="container">
-    <div class="container">
-        <div class="form-group col-md-offset-3 col-md-5">
-            <label asp-for="Name"></label>
-            <span class="badge alert-primary">@Model.Name</span><br />
-            <label asp-for="Temperature"></label>
-            <span class="badge alert-primary">@Model.Temperature°</span><br />
-            <label asp-for="Humidity"></label>
-            <span class="badge alert-primary">@Model.Humidity</span><br />
-            <label asp-for="Weather"></label>
-            <span class="badge alert-primary">@Model.Weather</span><br />
-            <form method="get">
-                <button asp-controller="WeatherForecast" asp-action="SearchByCity" class="btn btn-primary">"Go Back"</button>
-            </form>
-        </div>
-
+    <div id="city">
+        <div class="place info">@Model.SearchCity.Name</div>
+        <small class="date info">Nem:@Model.SearchCity.Humidity%</small>
+        <div class="temp info">Sıcaklık:@Model.SearchCity.Temperature°</div>
+        <div class="condition info">@Model.SearchCity.Weather</div>
     </div>
+    
+    @foreach (var city in Model.CenterCities)
+    {
+        <div id="@city.Name.ToLowerInvariant()">
+            <div class="place info">@city.Name</div>
+            <small class="date info">Nem:@city.Humidity%</small>
+            <div class="temp info">Sıcaklık:@city.Temperature°</div>
+            <div class="condition info">@city.Weather</div>
+        </div>
+    }
+
 </div>
+
