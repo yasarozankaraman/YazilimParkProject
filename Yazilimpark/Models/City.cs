@@ -5,17 +5,17 @@ namespace Yazilimpark.Models
 {
     public class City
     {
-        [Display(Name="City Name:")]
+       // [Display(Name="City Name:")]
         public string? Name { get; set; }    
-        [Display(Name="Temp.")]
+       // [Display(Name="Temp...")]
         public float Temperature { get; set; }
-        [Display(Name = "Humidity")]
+       // [Display(Name = "Humidity")]
         public int Humidity { get; set; }
-        [Display(Name = "Pressure:")]
+        //[Display(Name = "Pressure:")]
         public int Pressure { get; set; }
-        [Display(Name = "Wind Speed:")]
+       // [Display(Name = "Wind Speed:")]
         public int Wind { get; set; }
-        [Display(Name = "Weather Condition:")]
+       // [Display(Name = "Weather Condition:")]
         public string Weather { get; set; }
     }
 }

@@ -20,7 +20,7 @@
   {
     "Id": 3,
     "Name": "Hava Durumu",
-    "Path": "Weather",
+    "Path": "SearchByCity",
     "BackgroundImage": "post2.jpg"
   }
 ]

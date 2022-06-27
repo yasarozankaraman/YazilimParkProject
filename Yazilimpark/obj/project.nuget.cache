@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c9IW+2q5DSb4N3MWpEBh47aj83pzC9+O/IhVmNmHjkE8FniuiT/NZJvFJA1zn72+H6EXoAjsXhYT/iiyd6W23Q==",
+  "dgSpecHash": "ps/E3m4JQ8Ag7NmnJrcRq6qTTcEvmOzLc5w9hv8KOu7hXpGKcwX8RWLxJUbPkT+CEz6tjcWcrm3bxydgIFQsSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yazilim.park9\\Documents\\GitHub\\YazilimParkProject\\Yazilimpark\\Yazilimpark.csproj",
+  "projectFilePath": "C:\\Users\\yazilim.park9\\Source\\Repos\\YazilimPark\\Yazilimpark\\Yazilimpark.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yazilim.park9\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",
     "C:\\Users\\yazilim.park9\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",

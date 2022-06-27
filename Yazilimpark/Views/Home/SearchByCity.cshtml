@@ -1,0 +1,26 @@
+﻿
+@model Yazilimpark.Models.SearchByCity
+
+@{
+    ViewData["Title"] = "SearchByCity";
+}
+<head>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="~/css/weather.css" />
+    <script src="https://kit.fontawesome.com/d764eb5db4.js" crossorigin="anonymous"></script>
+
+</head>
+<div class="container-main">
+    <form method="post">
+      
+            <h2> Sehir ismi giriniz</h2>
+            <div>
+                <input asp-for="CityName" class="input-city" placeholder="Enter cityname" />
+                <button asp-controller="Home" asp-action="City" class="btn"><span class="fa fa-search"></span></button>
+                <span asp-validation-for="CityName" class="text-danger"></span>
+            </div>
+        
+    </form>
+</div>
+
