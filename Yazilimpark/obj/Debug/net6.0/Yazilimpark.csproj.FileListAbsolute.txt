@@ -149,6 +149,7 @@ C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd2691554927
 C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.pdb
 C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.genruntimeconfig.cache
 C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\ref\Yazilimpark.dll
+<<<<<<< HEAD
 C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\appsettings.json
 C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\project.json
@@ -233,3 +234,5 @@ C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\ref
 C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.pdb
 C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.genruntimeconfig.cache
 C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\ref\Yazilimpark.dll
+=======
+>>>>>>> acd3512d42524a44b7acb6b42cf841dbd5b8e663

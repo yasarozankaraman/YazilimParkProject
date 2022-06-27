@@ -8,6 +8,7 @@
 <body>
     </hr>
     <div class="quote-textarea-container">
+<<<<<<< HEAD
 
         <div class="quote-textarea">
             <h2>Rastgele Söz </h2>
@@ -16,7 +17,19 @@
                     I never see what has been done; I only see what remains to be done.
                 </h1>
                 <h2>Marie Curie</h2>
+=======
+
+        <div class="quote-textarea">
+            <h2>Rastgele Söz </h2>
+            <div id="quote-text">
+                "Creativity comes from trust. Trust your instincts. And never hope more than you work."
+                <h1></h1>
+
+                <h2>Rita Mae Brown</h2>
+
+>>>>>>> acd3512d42524a44b7acb6b42cf841dbd5b8e663
             </div>
+            <div id="quote-header"></div>
         </div>
     </div>
     <div class="quote-buttons">
@@ -37,7 +50,11 @@
             const textbox = document.getElementById('quote-text');
             let quote = await getRandomQuote();
 
+<<<<<<< HEAD
             let text = '<h1>'+quote.content +'</h1>' +'\r\n \r\n \r\n \r\n' + '<h2>' + (quote.author ?? "Anon") + '</h2>';
+=======
+            let text = quote.content + '\r\n \r\n' + '<h2>' + (quote.author ?? "Anon") + '</h2>';
+>>>>>>> acd3512d42524a44b7acb6b42cf841dbd5b8e663
             textbox.innerHTML = text;
         }
 
