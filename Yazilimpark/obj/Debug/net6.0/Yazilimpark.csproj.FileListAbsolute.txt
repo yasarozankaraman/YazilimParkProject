@@ -1,28 +1,91 @@
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.AssemblyReference.cache
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfoInputs.cache
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfo.cs
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CoreCompileInputs.cache
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cache
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cs
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\bin\Debug\net6.0\appsettings.json
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.staticwebassets.runtime.json
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.exe
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.deps.json
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.runtimeconfig.json
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.dll
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.pdb
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\scopedcss\bundle\Yazilimpark.styles.css
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\scopedcss\projectbundle\Yazilimpark.bundle.scp.css
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.dll
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\refint\Yazilimpark.dll
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.pdb
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.genruntimeconfig.cache
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\obj\Debug\net6.0\ref\Yazilimpark.dll
+C:\Users\Yasar\source\repos\Yeni klasör\Yazilimpark\Yazilimpark\bin\Debug\net6.0\project.json
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\appsettings.json
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\project.json
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.staticwebassets.runtime.json
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.exe
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.deps.json
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.runtimeconfig.json
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.pdb
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.AssemblyReference.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfoInputs.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfo.cs
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CoreCompileInputs.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cs
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\scopedcss\bundle\Yazilimpark.styles.css
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\scopedcss\projectbundle\Yazilimpark.bundle.scp.css
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\refint\Yazilimpark.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.pdb
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.genruntimeconfig.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\ref\Yazilimpark.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CopyComplete
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\yazilim.park9\source\repos\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.IO.Packaging.dll
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\appsettings.json
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\project.json
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.staticwebassets.runtime.json
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.exe
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.deps.json
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.runtimeconfig.json
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.dll
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Yazilimpark.pdb
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.dll
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\RestSharp.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.IO.Packaging.dll
-C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\System.Security.Permissions.dll
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.AssemblyReference.cache
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfoInputs.cache
@@ -31,9 +94,142 @@ C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cache
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cs
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\scopedcss\bundle\Yazilimpark.styles.css
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\scopedcss\projectbundle\Yazilimpark.bundle.scp.css
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CopyComplete
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.dll
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\refint\Yazilimpark.dll
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.pdb
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\Yazilimpark.genruntimeconfig.cache
 C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\obj\Debug\net6.0\ref\Yazilimpark.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\bin\Debug\net6.0\RestSharp.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\appsettings.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\project.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Yazilimpark.staticwebassets.runtime.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Yazilimpark.exe
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Yazilimpark.deps.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Yazilimpark.runtimeconfig.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Yazilimpark.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Yazilimpark.pdb
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\RestSharp.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.AssemblyReference.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfoInputs.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfo.cs
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CoreCompileInputs.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cs
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\scopedcss\bundle\Yazilimpark.styles.css
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\scopedcss\projectbundle\Yazilimpark.bundle.scp.css
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CopyComplete
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\refint\Yazilimpark.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.pdb
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\Yazilimpark.genruntimeconfig.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\obj\Debug\net6.0\ref\Yazilimpark.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\appsettings.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\project.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.staticwebassets.runtime.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.exe
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.deps.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.runtimeconfig.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.pdb
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\RestSharp.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.AssemblyReference.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfoInputs.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfo.cs
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CoreCompileInputs.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cs
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\scopedcss\bundle\Yazilimpark.styles.css
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\scopedcss\projectbundle\Yazilimpark.bundle.scp.css
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CopyComplete
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\refint\Yazilimpark.dll
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.pdb
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.genruntimeconfig.cache
+C:\Users\Yasar\OneDrive\Masaüstü\YazilimPark\Yazilimpark\obj\Debug\net6.0\ref\Yazilimpark.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\appsettings.json
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\project.json
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.staticwebassets.runtime.json
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.exe
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.deps.json
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.runtimeconfig.json
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Yazilimpark.pdb
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\RestSharp.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.AssemblyReference.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfoInputs.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.AssemblyInfo.cs
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CoreCompileInputs.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.RazorAssemblyInfo.cs
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\scopedcss\bundle\Yazilimpark.styles.css
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\scopedcss\projectbundle\Yazilimpark.bundle.scp.css
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.csproj.CopyComplete
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\refint\Yazilimpark.dll
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.pdb
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\Yazilimpark.genruntimeconfig.cache
+C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\obj\Debug\net6.0\ref\Yazilimpark.dll
