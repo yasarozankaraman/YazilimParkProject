@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IWForecastRepository, WForecastRepository>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 builder.Services.AddBusinessServices();
 builder.Services.Configure<QuoteApiConfig>(builder.Configuration.GetSection("QuoteApiConfig"));
 var app = builder.Build();
@@ -25,8 +26,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseDefaultFiles();
-app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseAuthorization();

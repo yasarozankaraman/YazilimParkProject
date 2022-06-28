@@ -8,116 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Yazilimpark
 build_property.RootNamespace = Yazilimpark
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark\
-build_property.RazorLangVersion = 6.0
+build_property.ProjectDir = C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark\
+build_property.RazorLangVersion = 2.1
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\yazilim.park9\Source\Repos\YazilimPark\Yazilimpark
+build_property.MSBuildProjectDirectory = C:\Users\yazilim.park9\Documents\GitHub\YazilimParkProject\Yazilimpark
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Home/Bmi.cshtml]
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/Bmi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Home/City.cshtml]
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/City.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaXR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Home/Index.cshtml]
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Home/RandomQuote.cshtml]
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/RandomQuote.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYW5kb21RdW90ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Home/SearchByCity.cshtml]
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/SearchByCity.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hCeUNpdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Home/ToDoList.cshtml]
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/ToDoList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUb0RvTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Home/Weather.cshtml]
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Home/Weather.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWF0aGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Shared/Error.cshtml]
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/yazilim.park9/Source/Repos/YazilimPark/Yazilimpark/Views/Shared/_Layout.cshtml]
-=======
-build_property.ProjectDir = C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark\
-build_property.RazorLangVersion = 6.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Yasar\OneDrive\Masaüstü\YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c\Yazilimpark
-build_property._RazorSourceGeneratorDebug = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Home/Bmi.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbWkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Home/City.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaXR5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Home/RandomQuote.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSYW5kb21RdW90ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Home/SearchByCity.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hCeUNpdHkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Home/ToDoList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUb0RvTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Home/Weather.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWF0aGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Yasar/OneDrive/Masaüstü/YazilimParkProject-352d9834f03b28bd26915549270d3f7fe275de7c/Yazilimpark/Views/Shared/_Layout.cshtml]
->>>>>>> acd3512d42524a44b7acb6b42cf841dbd5b8e663
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-hbo06hti34
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yazilim.park9/Documents/GitHub/YazilimParkProject/Yazilimpark/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
